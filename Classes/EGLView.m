@@ -238,8 +238,8 @@
 	glTranslatef(0,0,-10.0f);
 	glScalef(zoomFactor,zoomFactor,zoomFactor);
 	glRotatef(m,currentSpinRotation.y/m,currentSpinRotation.x/m,0);
-	// set the base color to white
-	glColor4f(1.0f,1.0f,1.0f,1.0f);
+	// set the base color to yellow
+	glColor4f(0.94f,1.0f,0.16f,1.0f);
 	// turn depth testing on (z-buffer)
 	glEnable(GL_DEPTH_TEST);
 	glDepthFunc(GL_LEQUAL);
